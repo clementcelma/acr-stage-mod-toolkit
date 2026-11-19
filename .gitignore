@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.venv/
+work/
+out/
+*.mp4
+*.m4a
+*.mkv
+*.wav
+transcript*.json
+pacenotes.csv
+pacenotes_acr.txt
+pacenotes_report.md

@@ -1,0 +1,5 @@
+# Optional: NVIDIA GPU for transcribe.py (about 30x faster than the CPU). CUDA 12 libraries as pip wheels, ~1 GB;
+# no CUDA toolkit install needed, transcribe.py finds them itself. Install AFTER requirements.txt:
+#   pip install -r requirements.txt -r requirements-gpu.txt
+nvidia-cublas-cu12
+nvidia-cudnn-cu12>=9,<10
